@@ -1,0 +1,11 @@
+prefix=C:/gstreamer/1.0/x86
+exec_prefix=C:/gstreamer/1.0/x86
+libdir=C:/gstreamer/1.0/x86/lib
+includedir=C:/gstreamer/1.0/x86/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.11.1
+Libs: -L${libdir} -ltag
+Cflags: -I${includedir}/taglib
